@@ -675,7 +675,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
-  padding: 30px;
+  /* padding: 30px; */
   position: relative;
   overflow: hidden;
   margin: 0;
@@ -684,6 +684,10 @@ section {
   border-radius: 15px;
   text-align: center;
   border-bottom: 3px solid #fff;
+}
+
+.icon-box > img {
+  width: 100%;
 }
 
 .services .icon-box:hover {
