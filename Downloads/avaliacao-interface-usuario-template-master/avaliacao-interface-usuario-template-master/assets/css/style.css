@@ -481,6 +481,10 @@ section {
   margin-bottom: 0;
 }
 
+.section-title2 {
+  color: white !important;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -579,9 +583,18 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
   margin-left: 60px;
 }
 
+.section-title {
+  color: white;
+}
+
 /*--------------------------------------------------------------
 # Steps
 --------------------------------------------------------------*/
+#steps {
+  background: rgb(68,68,69);
+background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rgba(91,98,103,1) 53%, rgba(32,35,38,1) 90%);
+}
+
 .steps {
   padding: 50px 0 40px 0;
 }
@@ -591,6 +604,7 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
 }
 
 .steps .content-item {
+  color: #d3d3d3 !important;
   padding: 40px;
   border-left: 1px solid #d4e9e6;
   border-bottom: 1px solid #d4e9e6;
@@ -601,7 +615,7 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
   display: block;
   font-size: 24px;
   font-weight: 400;
-  color: #1bac91;
+  color: white;
 }
 
 .steps .content-item h4 {
@@ -628,6 +642,11 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
+#features {
+  background: rgb(39,41,38);
+  background: linear-gradient(90deg, rgba(39,41,38,1) 0%, rgba(42,54,26,1) 100%, rgba(28,42,22,1) 100%); 
+}
+
 .features .nav-tabs {
   border: 0;
 }
@@ -646,6 +665,7 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
 .features .nav-link h4 {
   font-size: 18px;
   font-weight: 600;
+  color: #189981;
 }
 
 .features .nav-link p {
@@ -678,6 +698,11 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+#services {
+  background: rgb(39,41,38);
+  background: linear-gradient(90deg, rgba(39,41,38,1) 0%, rgba(42,54,26,1) 100%, rgba(28,42,22,1) 100%); 
+}
+
 .services .icon-box {
   /* padding: 30px; */
   position: relative;
@@ -739,6 +764,10 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
+#testimonials {
+  background: rgb(29,29,29);
+  background: linear-gradient(90deg, rgba(29,29,29,1) 0%, rgba(19,18,18,1) 53%, rgba(18,19,16,1) 100%); 
+}
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
   overflow: hidden;
@@ -762,7 +791,7 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #111;
+  color: white;
 }
 
 .testimonials .testimonial-item h4 {
@@ -821,6 +850,11 @@ background: linear-gradient(90deg, rgba(68,68,69,1) 0%, rgba(88,90,92,1) 24%, rg
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+#portfolio {
+  background: rgb(29,29,29);
+  background: linear-gradient(90deg, rgba(29,29,29,1) 0%, rgba(19,18,18,1) 53%, rgba(18,19,16,1) 100%); 
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
